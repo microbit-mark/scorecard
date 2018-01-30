@@ -2,6 +2,26 @@
     Site Design CSS
 ***************************/
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'GT Walsheim', 'Open Sans', sans-serif;
+background-image: url(https://microbit0.blob.core.windows.net/pub/pdijdjqv), -webkit-linear-gradient(left bottom, #FD645B 30%, #E73EE6 100%);
+     }
+#header {
+    background-color: #f669aa;
+    border-bottom: 1px solid #f95c79;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+}
+#content {
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
 #box {
   margin: auto;
   top: 0;
@@ -9,11 +29,12 @@
   bottom: 0;
   right: 0;
   height: auto;
-  width: auto;
+  width: 50%;
   padding: 2em;
   color: #333;
   text-align: center;
   overflow: visible;
+  border-radius: 10px
 }
 
 h1 {
@@ -99,7 +120,9 @@ a:hover {
   background-image: none !important;
 }
 
-
+.google-visualization-table-table {
+  font-size: 20pt !important;
+}
 /***************************
     Text Selection CSS
 ***************************/
